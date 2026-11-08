@@ -1,0 +1,313 @@
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+
+    <!-- Navbar Start -->
+     <!-- Navbar Start -->
+<div class="flex flex-row justify-between px-4 md:px-45 items-center font-[Inter] fixed top-0 left-0 w-full z-50 bg-white/70 backdrop-blur-md shadow-sm">
+
+    <h1 class="text-[#D97706] font-extrabold text-2xl mt-[24px] mb-[20px]">
+        The Daily Crust
+    </h1>
+
+    <!-- Hamburger Menu HP -->
+    <button id="menuBtn" type="button"
+        class="rounded-lg p-2 text-amber-600 transition hover:bg-slate-100 md:hidden"
+        aria-label="Open menu">
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+            stroke="currentColor" class="h-7 w-7">
+
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+    </button>
+
+    <!-- Menu Desktop -->
+    <ul class="hidden md:flex flex-row gap-5 mt-[24px] mb-[20px]">
+        <li class="text-[#D97706] underline underline-offset-7"><a href="#Home">Home</a></li>
+        <li class="text-[#4B5563] hover:text-[#D97706]"><a href="#About">About</a></li>
+        <li class="text-[#4B5563] hover:text-[#D97706]"><a href="#Menu">Menu</a></li>
+        <li class="text-[#4B5563] hover:text-[#D97706]"><a href="#Contact">Contact</a></li>
+    </ul>
+
+    <!-- WhatsApp Desktop -->
+    <a class="hidden md:block bg-[#D97706] py-2 px-5 rounded-lg hover:scale-95 text-white font-semibold mt-[24px] mb-[20px]"
+        href="https://wa.me/6283806293775?text=Hai%20Mau%20Beli%20Dong">
+        WhatsApp Booking
+    </a>
+
+</div>
+<!-- Navbar End -->
+    <!-- Navbar End -->
+
+
+    <!-- Content 1 Start -->
+    <div id="Home" class="grid grid-cols-1 md:grid-cols-2 px-4 md:px-47 mt-40 items-center mb-20 scroll-mt-24">
+        <div>
+            <h1 class="font-[Inter] font-extrabold text-3xl md:text-5xl mb-5">
+                Handcrafted Freshness, Every Single Morning
+            </h1>
+
+            <p class="mb-10 font-[Inter] font-normal text-base md:text-lg text-stone-600">
+                We believe in the slow, meticulous proces of traditional baking. Our artisan breads and pastries are
+                crafted daily using organic, locally-sourced ingredients and time-honored techniques.
+            </p>
+
+            <ul class="flex flex-wrap flex-row gap-3 md:gap-5 font-[Inter]">
+                <li class="text-white bg-[#D97706] py-2 px-5 rounded-lg">
+                    <a href="#Menu">Explore Menu</a>
+                </li>
+                <li class="py-2 px-5 rounded-lg border border-gray-400 hover:bg-gray-100">
+                    <a href="https://www.google.com/maps/place/AROMA+BAKERY+DENAI/@3.5817545,98.7227404,1462m/data=!3m1!1e3!4m6!3m5!1s0x303131d5a84b5d3f:0x7366cec0c397a8b9!8m2!3d3.5815072!4d98.7227857!16s%2Fg%2F11j34g1_tw?entry=ttu&g_ep=EgoyMDI2MTEwMy4wIKXMDSoASAFQAw%3D%3D">
+                        Our Location
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="flex justify-center pl-0 md:pl-5 mt-10 md:mt-0">
+            <img
+                src="https://nibble-images.b-cdn.net/nibble/original_images/artisan-bakery-surabaya-00.jpg?class=large"
+                alt="roti aroma bakery"
+                class="w-full max-w-[400px] h-[300px] md:w-100 md:h-106 object-cover rounded-xl"
+            >
+        </div>
+    </div>
+    <!-- Content 1 End -->
+
+
+    <!-- Content 2 Start -->
+    <div id="About" class="items-center text-center pb-10 bg-blue-50 px-4 md:px-36 scroll-mt-24">
+
+        <div class="mb-14">
+            <h1 class="font-[Inter] pt-20 font-semibold text-2xl md:text-3xl mb-3">
+                Rooted in Authenticity
+            </h1>
+
+            <p class="font-[Inter] font-normal text-base md:text-lg max-w-3xl mx-auto leading-relaxed text-stone-600">
+                Every loaf tells story of local farmers, pure ingredient, and our unwavering commitment to the craft. We don't cut corners, we just bake better bread
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-6 px-2 md:px-12">
+
+            <!-- Card 1 -->
+            <div class="flex flex-col items-center">
+                <svg width="36" height="36" viewBox="0 0 24 24" fill="#d97706">
+                    <path
+                        d="M17 8C8 10 59 16.17 3.82 21.34L5.71 22l.9-2.3C11.83 18.23 18 13 18 8V3h-5c-5 0-10.23 6.17-11 11.34L3.82 16.17C4.65 11 9.83 5 15 5h1v3z" />
+                </svg>
+
+                <h1 class="font-[Inter] font-semibold text-xl md:text-2xl mt-3 mb-2">
+                    100% Organic Ingredients
+                </h1>
+
+                <p class="font-[Inter] text-base md:text-lg text-stone-600 mb-13">
+                    Sourced responsibly for pure flavor.
+                </p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="flex flex-col items-center">
+                <svg width="36" height="36" viewBox="0 0 24 24" fill="#d97706">
+                    <path
+                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" />
+                </svg>
+
+                <h1 class="font-[Inter] font-semibold text-xl md:text-2xl mt-3 mb-2">
+                    Craft Daily
+                </h1>
+
+                <p class="font-[Inter] text-base md:text-lg text-stone-600 mb-13">
+                    Fresh from our ovens to your table.
+                </p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="flex flex-col items-center">
+                <svg width="36" height="36" viewBox="0 0 24 24" fill="#d97706">
+                    <path
+                        d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                </svg>
+
+                <h1 class="font-[Inter] font-semibold text-xl md:text-2xl mt-3 mb-2">
+                    5-Star Local Favorite
+                </h1>
+
+                <p class="font-[Inter] text-base md:text-lg text-stone-600 mb-13">
+                    Beloved by our neighborhood community.
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <!-- Content 2 End -->
+
+
+    <!-- Content 3 Start -->
+    <div id="Menu" class="flex flex-col items-center justify-center pt-20 px-4 md:px-0 scroll-mt-24">
+
+        <div class="text-center mb-10">
+            <h1 class="font-[Inter] font-semibold text-2xl md:text-3xl mb-3">
+                Fresh From The Oven
+            </h1>
+
+            <p class="font-[Inter] text-base md:text-lg text-stone-600 max-w-3xl mx-auto">
+                Our most loved artisanal creations.
+            </p>
+        </div>
+
+        <!-- Product Card Start -->
+        <div class="w-full max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 mb-20">
+
+            <!-- Card 1 -->
+            <div class="group rounded-2xl bg-white shadow-lg overflow-hidden border border-gray-100 flex flex-col transition-all duration-300 hover:-translate-y-1">
+                <div class="h-52 w-full overflow-hidden">
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrHtyei1Uflc4wtXRw9JeRvkGzb7U9JfimMQsVUTxy3Gqj72Hb4YgaybsH&s=10"
+                        alt="Signature Sourdough"
+                        class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                    />
+                </div>
+
+                <div class="p-6 flex flex-col flex-1 justify-between">
+                    <div>
+                        <div class="flex items-start justify-between gap-2 mb-2">
+                            <h3 class="text-xl font-[Inter] font-bold text-slate-900">Signature Sourdough</h3>
+                            <span class="rounded-md bg-amber-100/70 px-2.5 py-0.5 text-sm font-medium text-amber-700">
+                                $8.50
+                            </span>
+                        </div>
+
+                        <p class="text-sm text-slate-500 leading-relaxed mb-6">
+                            Long fermented for deep flavor and a perfectly crunchy crust.
+                        </p>
+                    </div>
+
+                    <a class="w-full rounded-xl bg-[#d97706] py-2.5 text-center font-semibold text-white transition hover:bg-[#b45309]"
+                        href="#Home">Order</a>
+                </div>
+            </div>
+            <!-- Card 1 End -->
+
+
+            <!-- Card 2 -->
+            <div class="group rounded-2xl bg-white shadow-lg overflow-hidden border border-gray-100 flex flex-col transition-all duration-300 hover:-translate-y-1">
+                <div class="h-52 w-full overflow-hidden">
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrHtyei1Uflc4wtXRw9JeRvkGzb7U9JfimMQsVUTxy3Gqj72Hb4YgaybsH&s=10"
+                        alt="Almond Croissant"
+                        class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                    />
+                </div>
+
+                <div class="p-6 flex flex-col flex-1 justify-between">
+                    <div>
+                        <div class="flex items-start justify-between gap-2 mb-2">
+                            <h3 class="text-xl font-bold text-slate-900">Almond Croissant</h3>
+                            <span class="rounded-md bg-amber-100/70 px-2.5 py-0.5 text-sm font-medium text-amber-700">
+                                $4.25
+                            </span>
+                        </div>
+
+                        <p class="text-sm text-slate-500 leading-relaxed mb-6">
+                            Buttery, incredibly flaky, and baked to a golden perfection.
+                        </p>
+                    </div>
+
+                    <a class="w-full rounded-xl bg-[#d97706] py-2.5 text-center font-semibold text-white transition hover:bg-[#b45309]"
+                        href="#Home">Order</a>
+                </div>
+            </div>
+            <!-- Card 2 End -->
+
+
+            <!-- Card 3 -->
+            <div class="group rounded-2xl bg-white shadow-lg overflow-hidden border border-gray-100 flex flex-col transition-all duration-300 hover:-translate-y-1">
+                <div class="h-52 w-full overflow-hidden">
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrHtyei1Uflc4wtXRw9JeRvkGzb7U9JfimMQsVUTxy3Gqj72Hb4YgaybsH&s=10"
+                        alt="Single Origin Brew"
+                        class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                    />
+                </div>
+
+                <div class="p-6 flex flex-col flex-1 justify-between">
+                    <div>
+                        <div class="flex items-start justify-between gap-2 mb-2">
+                            <h3 class="text-xl font-bold text-slate-900">Single Origin Brew</h3>
+                            <span class="rounded-md bg-amber-100/70 px-2.5 py-0.5 text-sm font-medium text-amber-700">
+                                $3.75
+                            </span>
+                        </div>
+
+                        <p class="text-sm text-slate-500 leading-relaxed mb-6">
+                            Roasted in-house weekly for a consistently smooth, rich finish.
+                        </p>
+                    </div>
+
+                    <a class="w-full rounded-xl bg-[#d97706] py-2.5 text-center font-semibold text-white transition hover:bg-[#b45309]"
+                        href="#Home">Order</a>
+                </div>
+            </div>
+            <!-- Card 3 End -->
+
+        </div>
+        <!-- Product Card End -->
+
+    </div>
+    <hr>
+    <!-- Content 3 End -->
+
+
+    <!-- Footer Start -->
+    <div id="Contact" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-5 md:px-48 bg-blue-50 scroll-mt-24">
+
+        <div class="mt-10">
+            <h1 class="text-[#D97706] font-bold text-2xl">The Daily Crust</h1>
+            <p class="text-stone-600 text-base md:text-lg">
+                &copy; 2026 The Daily Crust. Baked with passion daily.
+            </p>
+        </div>
+
+        <div class="mt-10 md:pl-5">
+            <h3 class="font-[Inter] font-semibold mb-2">Connect</h3>
+            <ul class="text-stone-600 text-xs">
+                <li class="mb-2"><a href="https://www.Instagram.com/indoramadona/"><u class="hover:text-[#D97706]">Instagram</u></a></li>
+                <li><a href="#"><u class="hover:text-[#D97706]">Facebook</u></a></li>
+            </ul>
+        </div>
+
+        <div class="mb-15 mt-10 md:pl-10">
+            <h3 class="font-[Inter] font-semibold mb-2">Visit Us</h3>
+            <ul class="text-stone-600 text-xs">
+                <li class="mb-2">
+                    <a href="https://www.google.com/maps/place/AROMA+BAKERY+DENAI/@3.5817545,98.7227404,1462m/data=!3m1!1e3!4m6!3m5!1s0x303131d5a84b5d3f:0x7366cec0c397a8b9!8m2!3d3.5815072!4d98.7227857!16s%2Fg%2F11j34g1_tw?entry=ttu&g_ep=EgoyMDI2MTEwMy4wIKXMDSoASAFQAw%3D%3D">
+                        <u>Google Maps</u>
+                    </a>
+                </li>
+                <li><a href="#"><u>Operating Hours</u></a></li>
+            </ul>
+        </div>
+
+    </div>
+    <!-- Footer End -->
+
+
+
+</body>
+</html>
